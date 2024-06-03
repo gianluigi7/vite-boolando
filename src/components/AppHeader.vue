@@ -16,12 +16,12 @@ export default {
                     </div>
                 </div>
                 <div class="col33 text-center">
-                    <img src="./img/boolean-logo.png" href="Boolean" class="Boolean">
+                    <img src="../assets/img/boolean-logo.png" href="Boolean" class="Boolean">
                 </div>
                 <div class="col33 text-right">
-                    <div><button class="trb">1</button> 
-                        <button class="trb">2</button> 
-                        <button class="trb">3</button> 
+                    <div><button class="trb"><i class="fa-solid fa-user"></i></button> 
+                        <button class="trb"><i class="fa-regular fa-heart"></i></button> 
+                        <button class="trb"><i class="fa-solid fa-bag-shopping"></i></button> 
                     </div>
                 </div>
             </div>
@@ -30,7 +30,7 @@ export default {
         
     </template>
 
-<style>
+<style scoped>
 *{
 padding: 0;
 margin: 0;
@@ -78,8 +78,15 @@ header{
  header button {
     background-color: transparent;
     border: none;
-    color: black;
+    color: white;
     padding-right: 7px;
     font-weight: 600;
+ }
+ header img {
+    height: 20px;
+ }
+ header i {
+    color: white;
+    font-size: 14px;
  }
  </style>
