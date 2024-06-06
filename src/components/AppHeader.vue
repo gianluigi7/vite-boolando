@@ -19,9 +19,9 @@ export default {
                     <img src="../assets/img/boolean-logo.png" href="Boolean" class="Boolean">
                 </div>
                 <div class="col33 text-right">
-                    <div><button class="trb"><i class="fa-solid fa-user"></i></button> 
-                        <button class="trb"><i class="fa-regular fa-heart"></i></button> 
-                        <button class="trb"><i class="fa-solid fa-bag-shopping"></i></button> 
+                    <div><button class="trb"></button> 
+                        <button class="trb"></button> 
+                        <button class="trb"></button> 
                     </div>
                 </div>
             </div>
@@ -44,6 +44,7 @@ header{
     width: 100%;
     padding: 20px 0;
     z-index: 15;
+    
 }
 .contenitore{
     max-width: 1200px;
@@ -88,5 +89,6 @@ header{
  header i {
     color: white;
     font-size: 14px;
+    
  }
  </style>
